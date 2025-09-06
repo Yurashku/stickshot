@@ -2,12 +2,15 @@
 
 Primitive cross-platform Stickman shooter inspired by Archero.
 
-## Running the game
-This repository contains a minimal [Godot](https://godotengine.org/) project.
-To play or export the game:
-1. Install Godot 4.
-2. Open this folder as a project.
-3. Use `Project > Export` to create builds for **Android**, **iOS**, or **Windows**.
+## Quick start
+
+```bash
+pip install -r requirements.txt && python run_tests.py
+godot project.godot
+```
+
+The first command installs the test dependency and runs the suite.
+The second launches the game in [Godot](https://godotengine.org/) 4.
 
 ## Controls
 - Move: WASD
@@ -18,8 +21,5 @@ To play or export the game:
 The player has placeholder slots for gloves, helmet, pants and cloak.
 
 ## Testing on Windows
-A simple test runner is included. After installing Python, run:
-```
-python run_tests.py
-```
-On Windows you can also double click `windows_tester/run_tests.bat`.
+Windows users can double click `windows_tester\run_tests.bat` to install
+dependencies and run the Python tests automatically.
