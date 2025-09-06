@@ -22,4 +22,4 @@ The player has placeholder slots for gloves, helmet, pants and cloak.
 
 ## Testing on Windows
 Windows users can double click `windows_tester\run_tests.bat` to install
-dependencies and run the Python tests automatically.
+dependencies, run the Python tests, and launch the game (requires Godot on PATH).
